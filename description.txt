@@ -1,0 +1,27 @@
+
+Node is a Javascript runtime not a language or framework
+Build on V8 Javascript engine (Google Chrome engine)
+Written in C++
+Essentially allow us to run Javascript code on the server (outside the browser environment).
+
+Why Node:
+Fast, efficient and highly scalable
+Single threaded , Event driven, non-blocking I/O model. PHP is synchronous and multi-threaded so multiple threads or processes run at the same time and take up memory space
+These can max out resources sometimes and since they are synchronous, each process has to finish before the next one is started. Node js is asynchronous and non-blocking
+so increase throughput and availability.
+Supports concurrency via events & callbacks. EventEmitter class is used to bind events and listeners.
+Popular in the industry, open source, active developers community support
+Same language on the front and back end.
+
+Best Projects for Node:
+
+Anything that is not CPU intensive. examples:
+REST API & Microservices.
+REAL Time Services (Chat, Live Updates)
+CRUD Apps - Blogs, Shopping Carts, Social Networks
+Tools & Utilities.
+
+
+
+
+
